@@ -3,7 +3,8 @@
   <!-- Launch Gazebo -->
   <include file="$(find turtlebot3_gazebo)/launch/turtlebot3_world.launch" />
 
-  <include file="$(find rbe3002_demo)/launch/slam_nav.launch" />
+  <!-- Launch SLAM and Navigation Packages -->
+  <include file="$(find rbe3002_demo)/launch/demo_base.launch" />
 
 
 </launch>
