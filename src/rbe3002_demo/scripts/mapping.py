@@ -209,7 +209,7 @@ def atGoal():
 
 def needToWiggle():
     if move_base_client.get_state == GoalStatus.ABORTED or move_base_client.get_state == GoalStatus.REJECTED:
-        return False
+        return True
     else:
         return False
 
