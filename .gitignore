@@ -1,2 +1,7 @@
+# ROS Temp Files
 build/
 devel/
+
+# VS Code Temp Files
+.vscode/
+*.code-workspace
